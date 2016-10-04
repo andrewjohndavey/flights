@@ -15,7 +15,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
             <db:parameterized-query><![CDATA[select * from flights]]></db:parameterized-query>
         </db:select>
         <logger level="INFO" doc:name="Logger"/>
-        <logger level="INFO" doc:name="Logger"/>
         <object-to-string-transformer doc:name="Object to String"/>
     </flow>
 </mule>
