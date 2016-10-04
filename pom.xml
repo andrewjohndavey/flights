@@ -107,9 +107,6 @@
 			</plugin>
         </plugins>
 	<testResources>
-            <testResource>
-                <directory>src/test/munit</directory>
-            </testResource>
         <testResource>
                 <directory>src/test/resources</directory>
             </testResource>
